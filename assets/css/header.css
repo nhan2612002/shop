@@ -29,11 +29,13 @@
     margin: 0px 2px;
 }
 
-.header_nav-item-link :hover {
-    color : rgba(255,255, 255, 0.7);
+.header_nav-item-link:hover {
+    color : rgba(23, 49, 179, 0.989);
     cursor: pointer;
-    border-radius: 2px;
-    background-color: rgba(52, 49, 49, 0.405);
+    border-radius: 3px;
+    background-color: burlywood;
+   transition-duration: 3.5s;
+   
 }
 
 .header_nav-item--strong {
@@ -204,6 +206,7 @@ display: inline-block;
     border-radius: 5px;
     cursor: pointer;
     padding: 5px;
+    transition-duration: 1.5s;
 } 
 .header_search-button {
     border: none;
