@@ -7,8 +7,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: roboto;
+    font-family: sans-serif,roboto;
 }
+
 body {
     user-select: none;
     text-decoration: none;
