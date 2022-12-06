@@ -148,7 +148,7 @@
 
 .home-filter_page-number {
     background-color: #4ba9e987;
-    font-size: 19px;
+    font-size: 15px;
     width: 3%;
     height: 34px;
     position: absolute;
@@ -403,4 +403,53 @@
 .card .details .group a:hover {
     color: red;
     background-color: aqua;
+}
+.page_navion {
+    font-size: 30px;
+    color: blue;
+    position: relative;
+}
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 23px 0px 0px;
+}
+
+.page-link {
+    margin-left: 20px;
+}
+.page-link:hover {
+    background-color: rgba(240, 248, 255, 0.189);
+}
+.Page_navigation-example {
+    border-radius: 26px;
+    background-color: #cb3a3aa8;
+    width: 40%;
+    margin: 20px 371px;
+}
+.true {
+    position: absolute;
+    top: 7px;
+    font-size: 40px;
+}
+.true-has {
+    margin-left: -15px;
+}
+.btn_top-icon {
+    font-size: 35px;
+    position: absolute;
+    right: 37px;
+    bottom: 500px;
+}
+.totop {
+    background: url(../img/back-to-top.png);
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    bottom: 40px;
+    left: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
 }
