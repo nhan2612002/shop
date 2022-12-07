@@ -49,7 +49,6 @@ label {
 
 .select-logo {
   padding-right: 0px;
-  vertical-align: top;
       right: 35px;
     position: absolute;
 }
@@ -102,9 +101,10 @@ label {
   background-color: #f0f4f7;
       width: 100px;
     margin-right: 10px;
+    border: none;
 }
 .cc-title {
-  font-size: 10.5pt;
+  font-size: 15px;
   padding-bottom: 8px;
 }
 
