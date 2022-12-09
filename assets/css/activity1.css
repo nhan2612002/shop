@@ -59,7 +59,7 @@
 
 .home-filter_label {
     padding-right: 10px;
-    color: lawngreen;
+    color: red;
 
 }
 
@@ -152,8 +152,8 @@
     width: 3%;
     height: 34px;
     position: absolute;
-    top: 169px;
-    right: 362px;
+    top: 205px;
+    right: 323px;
     padding-left: 4px;
 
 }
@@ -257,7 +257,7 @@
 
 .card:hover .imgBx img {
     transform: rotate(-35deg) translateX(-10px);
-}
+} 
 
 .card .details {
     position: absolute;
