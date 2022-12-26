@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>son</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+    <!-- google font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+        <path
+            d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+    </svg>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/activity1.css">
+    <link rel="stylesheet" href="assets/css/activity2.css">
+    <link rel="stylesheet" href="assets/css/activity3.css">
+    <link rel="stylesheet" href="assets/css/hoverao.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="grid" style="width: 1535px">
+            <!--header_nav chua 2 khoi lon  -->
+            <nav class="header_nav">
+                <ul class="header_nav-list">
+                    <li class="header_nav-item  ">
+                        <a href="#"
+                            class="header_nav-item-link header_nav-item-has--qr header_nav-item-link--separate">
+                            Vào cửa hàng xem sản phẩm </a>
+                    </li>   
+
+                    <li class="header_nav-item">
+                    
+                        <a href="#" class="header_nav-item-link "> Kết nối </a>
+                        <a href="#" class="header_nav-icon-link " ><i class="fa-brands fa-facebook fa-brands fa-facebook-color"></i></a>
+                        <a href="#" class="header_nav-icon-link "><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+
+                <ul class="header_nav-list ">
+                    <li class=" header_nav-item header_nav-item--has_header_notify"><a href="#" class="header_nav-item-link"><i class="fa-regular fa-bell"></i> Thông báo </a>
+                
+                <div class="header_notify ">
+                    <div class="header_notify-header">
+                        <h3> Thông báo mới nhận </h3>
+                    </div>
+                    <ul class="header_notify-list">
+                        <li class="header_notify-item">
+                            <a href="" class="header_notify-link">
+                                <img src="https://zsuntz.github.io/assets/img/notify1.png" alt="" class="header_notify-img">
+                                <div class="header_notify-info">
+                                    <span class="header_notify-name">Mỹ phẩm</span>
+                                    <span class="header_notify-descriotion"> mô tả sản phẩm</span>
+                                </div>
+                            </a>
+                            <a href="" class="header_notify-link">
+                                <img src="https://zsuntz.github.io/assets/img/notify1.png" alt="" class="header_notify-img">
+                                <div class="header_notify-info">
+                                    <span class="header_notify-name">Mỹ phẩm</span>
+                                    <span class="header_notify-descriotion"> mô tả sản phẩm</span>
+                                </div>
+                            </a>
+                            <a href="" class="header_notify-link">
+                                <img src="https://zsuntz.github.io/assets/img/notify1.png" alt="" class="header_notify-img">
+                                <div class="header_notify-info">
+                                    <span class="header_notify-name">Mỹ phẩm</span>
+                                    <span class="header_notify-descriotion"> mô tả sản phẩm</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header_notify-footer">
+                        <a href="#" class="header_notifi-footer-btn"> Xem tất cả </a>
+                    </div>
+                    </div>
+                    </li>
+                    <li class="header_nav-item"><a href="#" class="header_nav-item-link"><i
+                                class="fa-sharp fa-solid fa-circle-question"></i> Trợ giúp </a></li>
+                    <li class="header_nav-item"><a href="#" class="header_nav-item-link"><i
+                                class="fa-sharp fa-solid fa-circle-info"></i> Trang chủ </a></li>
+                                <li class="header_nav-item"><a href="user.html" class="header_nav-item-link"><i class="fa-solid fa-user"></i> Danh sách thành viên </a></li>
+                    <li class="header_nav-item header_nav-item--strong header_nav-item-link--separate_1"><a href="login.html"
+                            class="header_nav-item-link"> Đăng nhập </a></li>
+                    <li class="header_nav-item header_nav-item--strong"><a href="signup.html"
+                            class="header_nav-item-link">Đăng kí</a></li>
+                            
+                </ul>
+            </nav>
+             <div class="header_nav_mobile-select">
+                <div class="header_nav-logo">
+                    <img src="assets/img/backgroup/backgroup_item-9.png" alt="shopee" class="header_nav-log-img">
+                </div>
+                <div class="header_nav-search-hide-on-mobile">
+                  <div class="header_nav-search-input-wrap">
+                     <input type="text" class="header_nav_search_input" placeholder="Nhập để tìm kiếm lịch sử">
+                  </div>
+                  <but class="header_search-button" > <i class="fa-solid fa-magnifying-glass"></i></but>
+                  <div class="header_cart-wrap" > <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+            </div>
+            </div>
+    </header>
+        <!-- khối chứa nội dung chính của danh mục 2-->
+    <main id="container_activity-2">
+        <!-- Khung hình là 1200-->
+        <div class="grid_1200">
+            <!-- chia hàng  -->
+            <div class="grid_row">
+                <!-- khối chứa  cột 1 -->
+                <div class="grid_column-2">
+                     <!--khối chứa nội dung cột thứ 1-->
+                    <div class="container_container container_container-activity_1" style="margin-right: 42px;">
+
+                        <nav class="container_category container_category-activity_1">
+                            <h3 class="container_category-heading container_category-heading-activity_1"><i
+                                    class="fa-solid fa-list" style="font-size: 15px;"></i> DANH MỤC </h3>
+
+                            <ul class="container_category-list container_category-list_activity_1">
+                                <li class="container_category-item  container_category-item-active ">
+                                    <a href="#"
+                                        class=" container_category-item-font container_category-item-font-activity_1"><i
+                                            class="fa-solid fa-arrow-down"></i>
+                                        Tất Cả Sản Phẩm </a>
+                                </li>
+                                <li class="container_category-item container_category-item-activity_1">
+                                    <a href="#" class="container_category-link container_category-link-activity_1 "> Dép
+                                    </a>
+                                </li>
+                                <div class="container_category-item-activity_1 container_category-item-activity_1-has">
+                                    <li class="container_category-item  container_category-item-activity_1 ">
+                                      <a href="#" class="container_category-link  container_category-link-activity_1">
+                                        <i class="fa-solid fa-angle-right icon-font"> </i> áo Thun</a>
+                                    </li>
+                                    <ul class="container_category-link-activity_1-list">
+                                      <li class="container_category-link-activity_1-item">
+                                        <a href="main_activity4.html" id="container_category-link-activity_1-link"> LEVENTS</a>
+                                      </li>
+                                      <li class="container_category-link-activity_1-item">
+                                        <a href="main_activity5.html" id="container_category-link-activity_1-link"> ADLV</a>
+                                      </li>
+                                      <li class="container_category-link-activity_1-item">
+                                        <a href="main_activity6.html" id="container_category-link-activity_1-link"> SWE</a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                <li class="container_category-item  container_category-item-activity_1">
+                                    <a href="main_activity3.html" class="container_category-link  container_category-link-activity_1"> Túi
+                                        sách </a>
+                                </li>
+                                <li class="container_category-item  container_category-item-activity_1">
+                                    <a href="main_activity1.html" class="container_category-link  container_category-link-activity_1">
+                                        Giày </a>
+                                </li>
+                                <li class="container_category-item  container_category-item-activity_1">
+                                    <a href="#" class="container_category-link  container_category-link-activity_1"> áo
+                                        khoác </a>
+                                </li>
+                                <li class="container_category-item  container_category-item-activity_1">
+                                    <a href="main_activity2.html" class="container_category-link  container_category-link-activity_1"> Son
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                </div>
+                 <!-- khối chứa nội dung cột thứ 2-->
+                <div class="grid_column-10">
+                    <!-- nội dung thứ nhất của cột 2-->
+                    <div class="home-filter">
+                        <span class="home-filter_label"> Sắp xếp theo </span>
+                        <button class="home-filter_label-btn"> Phổ biến </button>
+                        <button class="home-filter_label-btn"> Mới nhất</button>
+                        <button class="home-filter_label-btn"> bán chạy</button>
+                        <div class="select-input select-input-noity">
+                            <span class="select-input_label"> Giá sản phẩm </span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                            <ul class="select-input_list">
+                                <li class="select-input_item">
+                                    <a href="" class="select-input_item-link"> Giá thấp đến cao </a>
+                                </li>
+                                <li class="select-input_item">
+                                    <a href="" class="select-input_item-link"> Giá cao đến thấp </a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="home-filter_page">
+                            <span class="home-filter_page-number home-filter_page-number_activi-2">
+                                <span class="home-filter_page-current">1</span>
+                                /14
+                            </span>
+                            <div class="home-filter_page-control">
+                                <a href="#" class="home-filter_page-btn"><i class="fa-solid fa-chevron-left"></i></a>
+                                <a href="#" class="home-filter_page-btn"><i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!--nội dung thứ 2 sản phẩm ( túi sách )-->
+                    <div class="home_product">
+                        <!-- sử dụng lại hàng để chứa các cột nhỏ ( grid > grid_row( hàng có thể chứa nhiều cột) > column) -->
+                        <div class="grid_row " style="margin-top: 20px;">
+                              <!--các sản phẩm hiển thi -->
+                              <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/5.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi xách đeo chéo Pinko Love Mini Icon</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">5.800.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 4.350.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 470</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/tui_2.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi Đeo Chéo Michael Kors Cece Extra-small Leather Crossbody Bag In Yellow Màu Vàng</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">2.500.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 1.875.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 1k</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/tui_1.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi Xách Michael Kors 35H0GU5S7T Emilia Brown Màu Nâu Đen</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">4.500.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 3.600.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 40</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/3.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi xách đeo chéo in logo thời trang cao cấp Versace Jeans</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">3.500.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 2.625.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 350</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/4.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi Xách đeo chéo Moschino chi tiết chìa khóa màu đen</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">22.000.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 16.500.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 70</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/1.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi vải bố Canvas TVBH18</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">50.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 37.500đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 2k</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/2.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi đeo chéo mini Le Cagole Heart bằng da bê 100%</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">3.800.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 2.850.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 100</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/9.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi tote thêu logo Freya màu đen</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">500.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 375.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 750</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">America</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/6.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi Xách xô hiệu ứng chuyển màu Alexander McQueen</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">8.600.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 6.450.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 307</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/7.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi xách tote Balmain có ô vuông Buzz 23</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">4.700.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 3.525.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 170</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/8.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi xách đeo vai mini Gucci Blondie bằng vải bạt 100%</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">7.800.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 5.850.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 240</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/10.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi xách tote Balenciaga đính pha lê đồng hồ cát XS</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">9.000.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 6.700.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 220</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/11.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi xách đeo chéo gucci Dionysus siêu nhỏ</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">12.000.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 9.000.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 710</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/12.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi đeo vai pha lê Valentino Garavani Roman Stud nhỏ</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">7.500.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 5.625.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 378</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+                             
+                             <div class="grid_colom-2-5" style="margin-right: 65px;">
+
+                                <!-- sản phảm trong grid -->
+                                <a href="" class="home_product-link">
+                                     <!--khối chứa thông tin sản phẩm -->
+                                    <div class="home_product-item home_product-item--has_buynow">
+                                        <!-- phần hiển thị buynow khi hover vào class="home_product-item--has_buynow"-->
+                                        <ul class="home_product-item-pay">
+                                            <li>
+                                                <a href="Checkout.html" class="home_product-item_pay-link"> BUY NOW</a>
+                                            </li>
+                                        </ul>
+                                          <!-- khối chứa hình ảnh-->
+                                        <img src="assets/img/tui xach/13.png" alt="" class="home_product-item_img home_product-item_img-activity_3">
+                                             <!-- khối chứa tiêu đề -->
+                                        <h4 class="home_product-item_name">Túi Xách đeo vai Rachel bằng Cotton 100%</h4>
+                                             <!--khối chứa giá thành-->
+                                        <div class="home_product-item_price">
+                                            <!-- giá cũ-->
+                                            <span class="home_product-item_price_old">8.200.000đ</span>
+                                            <!-- giá mới -->
+                                            <span class="home_product-item_price_current"> 6.150.000đ</span>
+                                        </div>
+                                            <!--khối chứa hoạt động người dùng -->
+                                        <div class="home_product-item_active">
+                                            <!--icon trái tim-->
+                                            <span class="home_product-item_active-like">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+                                            <!--khối chứa 5 icon hình ngôi sao -->
+                                            <div class="home_product-item-star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <!--khối chứa nội dung hiển thị ở góc-->
+                                            <span class="home_product-item-sold"> đã bán 740</span>
+                                        </div>
+                                        <!-- khối chứa phần thông tin xuất sứ và quốc gia-->
+                                        <div class="home_product-item_origin">
+                                            <span class="home_product-item-bran">whoo</span>
+                                            <span class="home_product-item-nation">American</span>
+                                        </div>
+                                          <!--khối chứa nhãn yêu thích-->
+                                        <div class="home_product-item-favourite">
+                                            <div class="home_product-item-favourite-check"> <i
+                                                    class="fa-solid fa-check"></i></div>
+                                            <span class="home_product-item-favourite_love">yêu thích</span>
+                                        </div>
+                                           <!--khối chứa nhãn giảm giá-->
+                                        <div class="home_product-item_sale-of home_product-item_sale-of_activity-3">
+                                            <span class="home_product-item-value home_product-item-value_activity-3">-25%</span>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                             </div>
+
+                            
+
+                             
+
+                             
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </main>
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid_row-footer" style="justify-content: space-around;">
+                <div class="grid_column-2-4">
+                    <h3 class="footer_heading"> Chăm sóc khách hàng </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"> Trung tâm hỗ trợ</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="index.html" class="footer-item_link"> Shop Mall </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"> hướng dẫn mua hàng </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid_column-2-4">
+                    <h3 class="footer_heading">giới thiệu </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"> Thông tin </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"> Tuyển dụng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"> điều khoản </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid_column-2-4">
+                    <h3 class="footer_heading"> danh mục </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"> áo thun </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"> giày dép </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"> thịnh thành </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid_column-2-4">
+                    <h3 class="footer_heading"> theo giỏi </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"> <i class="fa-brands fa-facebook"></i> face book </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"><i class="fa-brands fa-instagram"></i> instagram </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link"><i class="fa-brands fa-tiktok"></i> tiktok </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid_column-2-4">
+                    <h3 class="footer_heading"> Vào cửa hàng trên ứng dụng</h3>
+                    <div class="footer_dowload">
+                        <img src="assets/img/QR_code.png" alt="" class="footer_dowlaod-qr">
+                        <div class="footer_download-apps">
+                            <img src="assets/img/Appstore.png" alt="" class="footer_dowlaod-app-img">
+                            <img src="assets/img/GooglePlay.png" alt="" class="footer_dowlaod-app-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_row" style="justify-content: space-around;">
+
+                <div class="footer_bootom-item">
+
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading"> Chính sách bảo mật</h3>
+                    </div>
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading footer_heading-2"> Quy chế hoạt động </h3>
+                    </div>
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading footer_heading-2"> Chính sách vận chuyển </h3>
+                        
+                    </div>
+
+                    <div class="grid_column-2-4">
+                        <h3 class="footer_heading footer_heading-2"> Chính sách trả và hoàn tiền </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>

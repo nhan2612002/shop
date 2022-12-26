@@ -1,7 +1,8 @@
 
 .container_container {
-    
-    background-image: linear-gradient(0deg, rgb(247, 58, 39), rgb(254, 84, 48));
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+   
 }
 .container_category {
     margin-top: 133px;
@@ -67,90 +68,3 @@
     font-size: 16px;
     
 }
-.container_slider {
-    display: flex;
-    margin-top: 100px;
-}
-.slideshow {
-	list-style-type: none;
-  }
-  
-  /** SLIDESHOW **/
-  .slideshow,
-  .slideshow:after { 
-    z-index: 10;
-	
-  }
-  
-  .slideshow li span { 
-    position: absolute;
-    width: 54%;
-    height: 60%;
-    top: 0px;
-    left: 164px;
-    color: transparent;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0;
-    z-index: 0;
-    animation: imageAnimation 20s linear infinite 1s;
-    margin-left: 310px;
-    margin-top: 130px;
-  
-}
-.container_slider-slideshow {
-    
-}
-.slideshow li {
-    list-style: none;
-}
-
-  .slideshow li:nth-child(1) span { 
-	  background-image:url(../img/Quang_cao/quang_cao_12.webp); 
-	  background-repeat: no-repeat;
-      
-
-  }
-  .slideshow li:nth-child(2) span { 
-	  background-image: url("../img/Quang_cao/quan_cao_tui_sach.png");
-	  animation-delay: 10s; 
-  }
-  .slideshow li:nth-child(3) span { 
-	  background-image: url("../img/Quang_cao/quang_cao_10.jpg");
-	  animation-delay: 26s; 
-  }
-  .slideshow li:nth-child(4) span { 
-	  background-image: url("../img/Quang_cao/quang_cao_nike.png");   
-	  animation-delay: 20s; 
-  }
-  .slideshow li:nth-child(5) span { 
-	  background-image: url("../img/Quang_cao/quang_cao_9.png");
-	  animation-delay: 25s; 
-  }
-  .slideshow li:nth-child(6) span {
-	background-image: url("../img/Quang_cao/quang_cao_10.jpg");
-	animation-delay: 30s; 
-  } 
-  .slideshow li:nth-child(7) span {
-	background-image: url("../img/Quang_cao/quang_cao_son.png");
-	animation-delay: 35s; 
-  } 
-  
-  
-  
-  @keyframes imageAnimation { 
-	  0% { opacity: 0; animation-timing-function: ease-in; }
-	  8% { opacity: 1; animation-timing-function: ease-out; }
-	  17% { opacity: 1 }
-	  25% { opacity: 0 }
-	  100% { opacity: 0 }
-  }
-  
-  @keyframes titleAnimation { 
-	  0% { opacity: 0 }
-	  8% { opacity: 1 }
-	  17% { opacity: 1 }
-	  19% { opacity: 0 }
-	  100% { opacity: 0 }
-  }
-  

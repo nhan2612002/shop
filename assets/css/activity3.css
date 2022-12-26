@@ -1,0 +1,20 @@
+.home_product-item_img-activity_3 {
+    height: 20vh;
+    width: 11vw;
+    padding: 12%;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+.home_product-item_sale-of_activity-3 {
+   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+   width: 50px;
+   height: 50px;
+   background-color: #1aada3;
+}
+.home_product-item_sale-of_activity-3::after {
+    display: none;
+}
+.home_product-item-value_activity-3 {
+   font-size: 13px;
+   font-weight: 600;
+}

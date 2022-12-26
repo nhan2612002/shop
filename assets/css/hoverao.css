@@ -1,0 +1,31 @@
+.container_category-link-activity_1-list {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    width: 5vw;
+    position: absolute;
+    left: 119px;
+    top: 110px;
+    display: none;
+}
+#container_category-link-activity_1-link:hover {
+    color: yellow;
+}
+#container_category-link-activity_1-link {
+    color: black;
+}
+.container_category-link-activity_1-item {
+    list-style: none;
+}
+.container_category-item-activity_1-has:hover .container_category-link-activity_1-list {
+    display: block;
+    cursor: pointer;
+   
+}
+.icon-font {
+    position: absolute;
+    right: 37px;
+    bottom: 126px;
+    font-size: 16px;
+
+}

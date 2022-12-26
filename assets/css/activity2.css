@@ -43,6 +43,7 @@
 .home_product-item--has_buynow:hover .home_product-item_pay-link {
     display: block;
     cursor: pointer;
+    
 }
 
 .home_product-item_img{
@@ -103,7 +104,7 @@
 }
 
 .home_product-item-sold{
-    font-size: 10px;
+    font-size: 8.8px;
     color: red;
     font-weight: 300;
     padding: 10px;

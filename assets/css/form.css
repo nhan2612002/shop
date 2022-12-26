@@ -9,7 +9,8 @@
     z-index: 10;
 }
 .container_background{
-    background-color: rgb(238, 77, 45);
+   background-image: url(../img/backgroup/backgroup_item-4.png);
+   
 }
 
 .container_logo {
@@ -133,10 +134,16 @@
 
 /* sign_up */
 .container_background--signup {
-    background-image: url(../img/backgroup_1.png);
+    background-image: url(../img/backgroup/backgroup_item-6.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: sticky;
+}
+.container_logo-sgu {
+    height: 50vh;
+    width: 20vw;
+    margin-left: 197px;
+    margin-top: 20px;
 }
 .container_option_login-btn-app--signup {
     display: flex;
